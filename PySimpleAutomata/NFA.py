@@ -100,7 +100,7 @@ def nfa_intersection(nfa_1: dict, nfa_2: dict) -> dict:
 
 
 def nfa_union(nfa_1: dict, nfa_2: dict) -> dict:
-    """ Returns a NFA that reads the union of the NFAs in input.
+    r""" Returns a NFA that reads the union of the NFAs in input.
 
     Let :math:`A_1 = (Σ,S_1,S_1^0,ρ_1,F_1)` and :math:`A_2 =(Σ,
     S_2,S_2^0,ρ_2,F_2)` be two NFAs. here is a NFA
@@ -144,7 +144,7 @@ def nfa_union(nfa_1: dict, nfa_2: dict) -> dict:
 
 # NFA to DFA
 def nfa_determinization(nfa: dict) -> dict:
-    """ Returns a DFA that reads the same language of the input NFA.
+    r""" Returns a DFA that reads the same language of the input NFA.
 
     Let A be an NFA, then there exists a DFA :math:`A_d` such
     that :math:`L(A_d) = L(A)`. Intuitively, :math:`A_d`

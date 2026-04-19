@@ -60,7 +60,7 @@ def dfa_word_acceptance(dfa: dict, word: list) -> bool:
 
 # Side effect on input dfa
 def dfa_completion(dfa: dict) -> dict:
-    """ Side effects on input! Completes the DFA assigning to
+    r""" Side effects on input! Completes the DFA assigning to
     each state a transition for each letter in the alphabet (if
     not already defined).
 
@@ -464,7 +464,7 @@ def dfa_trimming(dfa: dict) -> dict:
 
 
 def dfa_projection(dfa: dict, symbols_to_remove: set) -> dict:
-    """ Returns a NFA that reads the language recognized by the
+    r""" Returns a NFA that reads the language recognized by the
     input DFA where all the symbols in **symbols_to_project**
     are projected out of the alphabet.
 

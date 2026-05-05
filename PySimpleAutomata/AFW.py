@@ -188,7 +188,7 @@ def nfa_to_afw_conversion(nfa: dict) -> dict:
 
 
 def afw_to_nfa_conversion(afw: dict) -> dict:
-    """ Returns a NFA reading the same language of input AFW.
+    r""" Returns a NFA reading the same language of input AFW.
 
     Let :math:`A = (Σ, S, s^0 , ρ, F )`  be an afw. Then we
     define the nfa :math:`A_N` such that :math:`L(A_N) = L(A)`
@@ -260,7 +260,7 @@ def afw_to_nfa_conversion(afw: dict) -> dict:
 
 
 def formula_dual(input_formula: str) -> str:
-    """ Returns the dual of the input formula.
+    r""" Returns the dual of the input formula.
 
     The dual operation on formulas in :math:`B^+(X)` is defined as:
     the dual :math:`\overline{θ}` of a formula :math:`θ` is obtained from θ by
@@ -283,7 +283,7 @@ def formula_dual(input_formula: str) -> str:
 
 
 def afw_complementation(afw: dict) -> dict:
-    """ Returns a AFW reading the complemented language read by
+    r""" Returns a AFW reading the complemented language read by
     input AFW.
 
     Let :math:`A = (Σ, S, s^0 , ρ, F )`. Define :math:`Ā = (Σ, S,
